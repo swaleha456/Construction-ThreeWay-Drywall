@@ -1,85 +1,71 @@
-# Construction Company Website-Template
-> A simple website template with some interesting features created with HTML , CSS and JavaScript for learning purposes and to practice (Advanced DOM and Events) with JavaScript.
+# Construction Company Website Template
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-* [License](#license)
+> A responsive and modern construction company website template built using **HTML**, **CSS**, and **JavaScript**. This project was developed as part of my learning journey to deepen my understanding of **Advanced DOM Manipulation** and **Event Handling** in JavaScript.
 
+---
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## 📑 Table of Contents
 
+- [General Information](#general-information)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Project Status](#project-status)
+- [Room for Improvement](#room-for-improvement)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+- [License](#license)
 
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+---
 
+## 🧾 General Information
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+This project simulates a professional website for a construction company. It is designed to:
 
+- Enhance web development skills using vanilla JavaScript.
+- Practice working with complex DOM structures and JavaScript events.
+- Serve as a template for small businesses or developers building a construction-related site.
 
-## Screenshots
-![Main layout](./Preview_main.jpg)
-<!-- If you have screenshots you'd like to share, include them here. -->
+The project was developed as part of a personal challenge to improve frontend design and interactivity without relying on frameworks or libraries.
 
+---
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## 🛠️ Technologies Used
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+- **HTML5** – for structure  
+- **CSS3** – for styling and responsiveness  
+- **JavaScript (ES6+)** – for interactivity and DOM manipulation  
 
+---
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+## ✨ Features
 
-`write-your-code-here`
+- Fully responsive layout for desktop and mobile  
+- Dynamic navigation and menu toggling  
+- Interactive image sliders and modals  
+- Smooth scrolling and animated UI elements  
+- Modular, reusable code structure  
 
+---
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+## 📸 Link
 
+<!-- Include screenshots here (add image links or placeholders) -->
+> _Coming soon..._
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+---
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+## 🧰 Setup
 
-To do:
-- Feature to be added 1
-- Feature to be added 2
+1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/swaleha456/Construction-ThreeWay-Drywall.git 
 
-## Acknowledgements
-- This project was made as a final Task for NTI Web Design Track.
-- Many thanks to Eng. Jack Fayez
+2. Navigate to the project folder:
 
+  cd construction-company-website-template
 
-## Contact
-Created by [@Orion56](https://github.com/Orion56) - feel free to contact me!
-
-
-## License
-This project is open source and available under the [... License]().
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+3. Open the index.html file in your preferred browser. No additional setup or installations are required.

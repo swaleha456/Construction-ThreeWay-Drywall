@@ -46,10 +46,9 @@ The project was developed as part of a personal challenge to improve frontend de
 
 ## 📸 Link
 
-<!-- Include screenshots here (add image links or placeholders) -->
-> _Coming soon..._
+Check out the live website here:  
+👉 [https://constructifydev.netlify.app/](https://constructifydev.netlify.app/)
 
----
 
 ## 🧰 Setup
 

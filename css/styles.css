@@ -1020,4 +1020,95 @@ text-shadow:1px 1px #73757E;
     }
 }
 
+#portfolio {
+    width: 100%;
+    background: #111;
+    padding: 70px 0;
+    overflow: hidden;
+  }
+  
+  .stats-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #151515;
+  }
+  
+  .stats-left {
+    padding: 70px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+  }
+  
+  .stat-box h2 {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0;
+    color: #fff;
+    line-height: 1;
+  }
+  
+  .stat-box p {
+    margin: 12px 0 0;
+    font-size: 16px;
+    color: #bdbdbd;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+  }
+  
+  .stats-right {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .stats-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* MOBILE RESPONSIVE */
+  @media (max-width: 900px) {
+    .stats-wrapper {
+      grid-template-columns: 1fr;
+    }
+  
+    .stats-left {
+      padding: 50px 30px;
+    }
+  
+    .stat-box h2 {
+      font-size: 55px;
+    }
+  
+    .stats-right {
+      height: 300px;
+    }
+  }
+  
+
+  .stats-left .portfolio-link {
+    color: #bdbdbd;      /* match your paragraph text color */
+    text-decoration: underline; /* optional, makes it look like a link */
+    background: none !important; /* remove any button background */
+    padding: 0 !important;       /* remove button padding */
+    border: none !important;     /* remove button border */
+    font-weight: 500;            /* match paragraph weight */
+  }
+  
+  .stats-left .portfolio-link:hover {
+    color: #fff;           /* color change on hover */
+    text-decoration: underline; /* optional hover effect */
+  }
+  
+
 /* END OF SHEET */

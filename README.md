@@ -47,7 +47,7 @@ The project was developed as part of a personal challenge to improve frontend de
 ## 📸 Link
 
 Check out the live website here:  
-👉 [https://constructifydev.netlify.app/](https://constructifydev.netlify.app/)
+👉 [https://threewaydrywall.ca/](https://threewaydrywall.ca/)
 
 
 ## 🧰 Setup

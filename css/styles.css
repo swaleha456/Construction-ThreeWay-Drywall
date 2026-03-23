@@ -1125,6 +1125,34 @@ text-shadow:1px 1px #73757E;
   #contact .contactUs form textarea:focus {
     box-shadow: inset 0px 0px 10px var(--txtaccent1);
   }
+
+  /* CONTACT FORM - MOBILE FIX */
+@media (max-width: 576px) {
+    /* Stack heading + form vertically */
+    #contact .contactUs > .container {
+      display: block;       /* override desktop flex */
+    }
+  
+    /* Make form full width and stack inputs */
+    #contact .contactUs form {
+      width: 100%;
+      display: block;       /* stop flex layout on mobile */
+      padding-top: 12px;
+    }
+  
+    #contact .contactUs form input,
+    #contact .contactUs form textarea {
+      width: 100%;
+      margin-right: 0;
+      display: block;
+    }
+  
+    #contact .contactUs form input[type="submit"] {
+      width: auto;          /* button looks nicer */
+      display: inline-block;
+      margin: 8px auto 0;
+    }
+  }
   
 
 /* END OF SHEET */

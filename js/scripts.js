@@ -62,10 +62,18 @@ function criteria() {
     }   
 }    
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    criteria();
-});
+const form = document.getElementById('form');
+
+if (form) {
+  form.addEventListener("submit", (e) => {
+    criteria(); // run validation
+
+    // If invalid email, stop submission. If valid, allow FormSubmit to submit.
+    if (document.getElementById('email').classList.contains("invalid")) {
+      e.preventDefault();
+    }
+  });
+}
 
 // SEARCH
 const search = document.getElementById('search');

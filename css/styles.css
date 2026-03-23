@@ -1109,6 +1109,22 @@ text-shadow:1px 1px #73757E;
     color: #fff;           /* color change on hover */
     text-decoration: underline; /* optional hover effect */
   }
+
+  /* Make textarea match inputs */
+#contact .contactUs form textarea {
+    padding: 6px 15px;
+    margin: 0px 5px 10px 0px;
+    border-radius: 6px;
+    border-style: none;
+    color: var(--textaccent3);
+    flex-basis: 100%;   /* take full row */
+    min-height: 90px;   /* bigger message box */
+    resize: vertical;   /* user can resize */
+  }
+  
+  #contact .contactUs form textarea:focus {
+    box-shadow: inset 0px 0px 10px var(--txtaccent1);
+  }
   
 
 /* END OF SHEET */

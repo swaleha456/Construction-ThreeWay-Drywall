@@ -67,21 +67,24 @@ form.addEventListener("submit", (e) => {
     criteria();
 });
 
-//SEARCH
+// SEARCH
 const search = document.getElementById('search');
 const searchBar = document.getElementById('searchBar');
-//click on the Magnifier icon to toggle the search bar
-search.addEventListener('click', function (){
-    searchBar.classList.toggle('show')
-    searchBar.classList.toggle('hide')
-})
-//press escape to close the search bar
- document.addEventListener('keydown', (event) => {
-     var keyName = event.key;
-     console.log("keyName");
-     if ((keyName == 'Escape' && searchBar.classList.contains('show') == true)) {
-            searchBar.classList.toggle('show')
-            searchBar.classList.toggle('hide')    
-         }
- } )
+
+if (search && searchBar) {
+  // click on the Magnifier icon to toggle the search bar
+  search.addEventListener('click', function () {
+    searchBar.classList.toggle('show');
+    searchBar.classList.toggle('hide');
+  });
+
+  // press escape to close the search bar
+  document.addEventListener('keydown', (event) => {
+    const keyName = event.key;
+    if (keyName === 'Escape' && searchBar.classList.contains('show')) {
+      searchBar.classList.toggle('show');
+      searchBar.classList.toggle('hide');
+    }
+  });
+}
 
